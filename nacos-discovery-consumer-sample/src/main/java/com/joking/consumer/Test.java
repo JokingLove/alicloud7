@@ -29,9 +29,6 @@ public class Test {
     }
 
     private static Node merge1(Node head1, Node head2) {
-        if(head1 == null && head2 == null) {
-            return null;
-        }
         if(head1 == null) return head2;
         if(head2 == null) return head1;
 
@@ -77,7 +74,7 @@ public class Test {
     }
 
 
-    static class Node {
+    static class Node implements Cloneable{
         private int value;
         private Node next;
 
