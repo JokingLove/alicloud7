@@ -18,7 +18,6 @@ import javax.annotation.PostConstruct;
 import java.io.StringReader;
 import java.util.Properties;
 
-@RefreshScope
 @RestController
 @SpringBootApplication
 public class NacosConfigSampleApplication {
